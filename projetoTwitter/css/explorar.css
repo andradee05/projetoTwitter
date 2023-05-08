@@ -1,0 +1,43 @@
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    float: left;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+}
+
+nav ul li{
+    list-style: none;
+    margin-top: 2vh;
+    padding-top: 10vh;
+
+}
+
+#explorer{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10vh;
+    height: 110vh;
+    width: 130vh;
+}
+
+#parte3{
+    position: fixed;
+    height: 90vh;
+    width: 40vh;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-top: -110vh;
+    margin-left: 150vh;
+}
+
+article{
+    background-color: rgb(255, 255, 255);
+    width: 96%;
+    padding: 1vh;
+    margin: auto;
+    margin-top: 4vh;
+}
